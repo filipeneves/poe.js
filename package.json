@@ -1,6 +1,6 @@
 {
   "name": "poe.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Path of Exile JavaScript Promise-based Node.JS library",
   "main": "index.js",
   "scripts": {

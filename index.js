@@ -10,8 +10,14 @@
 
  /**
   * @typedef {Object} POE
+  * @prop {Object} leagues Leagues API methods
+  * @prop {Object} Ladders Ladders API methods
+  * @prop {Object} PVP PVP API methods
+  * @prop {Function} get Perform a single GET request
+  * @prop {Function} post Perform a single POST request
+  * @prop {Function} all Perform multiple requests
   */
- const poe = require('./src/poe')
+ const POE = require('./src/poe')
 
  /**
   * Initialize POE instance

@@ -74,7 +74,7 @@ POE.prototype.get = function get(path) {
  * Builds the endpoint for the Path of Exile API resource
  * @param {String} path The pathname of the API endpoint
  */
-POE.prototype.build = function buildURL(path) {
+POE.prototype.buildURL = function buildURL(path) {
     const baseURL = 'https://api.pathofexile.com'
     return `${baseURL}${encodeURI(path)}`
 }

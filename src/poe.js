@@ -7,9 +7,9 @@
  * @requires src/pvp
  */
 const axios = require('axios')
-const leagues = require('./leagues')
-const ladders = require('./ladders')
-const pvp = require('./pvp')
+const Leagues = require('./leagues')
+const Ladders = require('./ladders')
+const PVP = require('./pvp')
 
 /**
  * POE constructor

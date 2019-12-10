@@ -1,0 +1,30 @@
+{
+  "name": "poe.js",
+  "version": "1.0.0",
+  "description": "Path of Exile JavaScript Promise-based Node.JS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipeneves/poe.js.git"
+  },
+  "keywords": [
+    "poe",
+    "js",
+    "path",
+    "of",
+    "exile",
+    "api"
+  ],
+  "author": "Filipe Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipeneves/poe.js/issues"
+  },
+  "homepage": "https://github.com/filipeneves/poe.js#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
